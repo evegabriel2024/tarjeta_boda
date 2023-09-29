@@ -1,10 +1,24 @@
-:root {
-    --color1: #2c3e50;
-    --color2: rgb(255, 215, 0);
+.fiesta{
+    background-color: rgb(255, 243, 221);
+    margin: auto;
     
 }
-.countdown{
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 50px;
+.fiesta img{
+    position: relative;
+    width: 120px;
+    left: calc(50% - 60px);
+    padding: 1em 0 0 0;
+}
+
+.fiesta section a{
+    text-decoration: none;
+    color: white;
+    background-color: #A6bb90;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+@media (max-width: 890px) {
 }

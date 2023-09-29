@@ -1,0 +1,32 @@
+.countdown{
+    background-color: #A6bb90;
+    text-align: center !important;
+    border: white solid 3px;
+}
+.countdown>h2{
+    color: white;
+    font-weight: 1000;
+}
+.countdown .container h3{
+    color: white;
+    font-weight: bolder;
+}
+.countdown .container p{
+    color: white;
+    font-weight: 600;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 890px) {
+    .countdown .container p{
+        text-align: justify !important;
+    }
+    .countdown .container p:nth-child(1){
+        text-align: center !important;
+    }
+    .countdown .container p:nth-child(2){
+        text-align: center !important;
+    }
+
+}
