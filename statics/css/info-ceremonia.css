@@ -1,19 +1,27 @@
 .ceremonia{
-    background-color: rgb(255, 243, 221);
+    background-color: white;
     margin: auto;
-    
 }
 .ceremonia img{
     position: relative;
-    width: 120px;
-    left: calc(50% - 60px);
+    width: 100px;
+    left: calc(50% - 50px);
     padding: 1em 0 0 0;
 }
-
+.ceremonia h1{
+    font-family: "VonMullerhoff";
+    font-size: 4.5em;
+    margin: 0;
+}
+.ceremonia section p{
+    font-family: "MarckScript";
+    font-size: 1.2em;
+    
+}
 .ceremonia section a{
     text-decoration: none;
     color: white;
-    background-color: #A6bb90;
+    background-color: #838C7B;
     padding-top: .5em;
     padding-bottom: .5em;
     border-radius: 15px;

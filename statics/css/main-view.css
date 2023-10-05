@@ -3,71 +3,60 @@
 .hojas-bottom{
     position: absolute;
     width: auto;
-    max-width: 300px;
+    max-width: 200px;
     z-index: 1;
     bottom: 0;
     right: 0;
     margin: 0;
     padding: 0;
-    filter: blur(.2px) contrast(110%) brightness(.9) drop-shadow(-5px 2px 7px #1e1e1e6e);
+    filter: blur(.2px) contrast(110%) brightness(.7) drop-shadow(-5px 2px 7px #1e1e1e6e);
 }
 .hojas-top{
     position: absolute;
     width: auto;
-    max-width: 300px;
+    max-width: 150px;
     z-index: 1;
-    top: 0;
+    top: 0vh;
     left: 0;
     margin: 0;
     padding: 0;
-    transform: rotate(180deg);
-    filter: blur(.2px) contrast(110%) brightness(.9) drop-shadow(-5px 2px 7px #1e1e1e6e);
+    filter: blur(.2px) contrast(110%) brightness(.7) drop-shadow(-5px 2px 7px #1e1e1e6e);
 }
 
 .main-view{
-    background: #fffbf4;
-    z-index: 0;
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
-    background-image: url('../img/paper-texture.avif');
+    background-color: white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.main-view p {
-    font-family: "DancingScript";
-
-    position: absolute;
-    z-index: 1;
-
-    left: 12%;
-    top: 120px;
-    font-size: 4em;
-
-    color: #000000;
-    text-shadow: -15px 12px 4px #1e1e1e6e;
-}
 
 .rings{
-    width: 300px;
-    position: absolute;
-    top: 35%;
-    left: 35%;
+    width: 140px;
     filter: drop-shadow(-15px 12px 4px #1e1e1e6e);
 }
 
+.main-view p {
+    z-index: 2;
+    font-family: "VonMullerhoff";
+
+    color: #000000;
+    text-shadow: -15px 12px 4px #1e1e1e6e;
+
+
+    font-size: 4em;
+}
 
 .main-view h1 {
-    font-family: "VladimirScript";
-
-    position: absolute;
-    z-index: 100;
-
-    left: 50%;
-    top: 65%;
+    font-family: "VonMullerhoff";
     font-size: 6em;
 
     color: #000000;    
@@ -78,22 +67,15 @@
 
 /* MEDIA QUERY */
 @media (max-width: 890px) {
-
     .main-view p {
-        top: 25%;
-        left: 20%;
-        font-size: 2.6em;
+        font-size: 3em;
+        max-width: 240px;
     }
     .rings{
-        width: 120px;
-        position: absolute;
-        top: 40%;
-        left: 32%;
+        width: 100px;
     }
     .main-view h1 {
-        font-size: 3.5em;
-        top: 60%;
-        left: 13%;
+        font-size: 4.2em;
     }
 }
 

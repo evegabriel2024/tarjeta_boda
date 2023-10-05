@@ -17,6 +17,10 @@ html {
     font-family: "DancingScript";
     src: url("../fonts/DancingScript-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: "VonMullerhoff";
+    src: url("../fonts/VonMuellerhoff-Regular.ttf");
+}
 
 /* MEDIA QUERY */
 @media (max-width: 890px) {
