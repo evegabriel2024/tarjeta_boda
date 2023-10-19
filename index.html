@@ -3,9 +3,12 @@
 
 <head>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +30,7 @@
         <img src="./statics/img/hojas2.webp" alt="" class="hojas-bottom" srcset="">
 
         <div class="container">
-            
+
             <img src="./statics/img/silueta-pareja.webp" alt="" class="silueta" srcset="">
             <p class="text-black">¡Nos Casamos!</p>
             <div class="names-container">
@@ -54,8 +57,9 @@
             <p class="text-center">
                 13 de Enero 2024 <br>
                 19:00hs <br>
-                Santa Lucía, San Juan <br>
-                Vestimenta Formal
+                Parroquia Santa Lucia <br><br>
+                <b>Vestimenta Formal</b><br>
+                (Sin excepcion)
             </p>
             <p class="text-center">
                 <i class="bi bi-arrow-down"></i>
@@ -65,44 +69,30 @@
             <a class="px-5" href="https://maps.app.goo.gl/iiyByabiGu4bVdGc6">Como llegar</a>
         </section>
     </div>
-    <div class="regalo m-auto py-5">
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="fiesta m-auto py-5">
+        
+        <div class="modal fade" id="condicionesModal" tabindex="-1" aria-labelledby="condicionesModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-center fs-5" id="condicionesModalLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h2 style="font-weight: 800;">"REGLAS"</h2> <br>
+                        <p class="text-black" style=" font-family: Consolas;">
+                            1. Vestimenta formal <br>(hasta los tragos🥴🍸)<br><br>
+                            2. Esta fiesta es solo para adultos que saben divertirse, así que niños, ¡hoy no podrán robar el show! 😎 <br><br>
+                            3. Si no hay diversión no hay postre 🚫 <br><br>
+                            4. Cuando el baile empieza, la silla es lava 🌋🤣<br><br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Listo</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
             </div>
         </div>
-        <img src="./statics/img/regalo.webp" alt="" class="" srcset="">
-        <h1 class="text-white text-center bolder text-capitalize">Regalos</h1>
-        <section class="text-center">
-            <p class="text-center">
-                13 de Enero 2024 <br>
-                21:00hs <br>
-                Nueve de Julio, San Juan
-            </p>
-            <p class="text-center">
-                <i class="bi bi-arrow-down"></i>
-                Indicaciónes para llegar
-                <i class="bi bi-arrow-down"></i>
-            </p>
-            <button type="button" class="px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Colaborar
-            </button>
-        </section>
-    </div>
-    <div class="fiesta m-auto py-5">
         <img src="./statics/img/copas.webp" alt="" class="" srcset="">
         <h1 class="text-black text-center bolder text-capitalize">fiesta</h1>
         <section class="text-center">
@@ -111,6 +101,10 @@
                 21:00hs <br>
                 Nueve de Julio, San Juan
             </p>
+            <button type="button" class="px-3 btn btn-outline-condiciones" data-bs-toggle="modal" data-bs-target="#condicionesModal">
+                Condiciones
+            </button>
+            <br>
             <p class="text-center">
                 <i class="bi bi-arrow-down"></i>
                 Indicaciónes para llegar
@@ -119,8 +113,97 @@
             <a class="px-5" href="https://maps.app.goo.gl/736o6iVfKWcsZFu47">Llegar a la fiesta</a>
         </section>
     </div>
+    <div class="regalo m-auto py-5">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-center fs-5" id="exampleModalLabel">Mercado pago</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <p class="text-black">
+                            Gabriel Emanuel Roldan Elizondo <br> <br>
+                            Mercado Pago <br>
+                            <b>CVU:</b> <a id="cvu" value="0000003100059215737285">0000003100059215737285</a><br>
+                            <b>Alias:</b> <a id="alias">onda.vida.ecepto.mp</a><br>
+                            <b>CUIT/CUIL:</b> 20399958602 <br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Listo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./statics/img/regalo.webp" alt="" class="" srcset="">
+        <section class="text-center">
+            <p class="text-center">
+                Si deseas realizarnos un regalo podés colaborar con nuestra Luna de Miel...
+            </p>
+            <button type="button" class="px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                VER DATOS
+            </button>
+        </section>
+    </div>
+    <div class="confirmar m-auto py-5">
+        <!-- Modal -->
+        <div class="modal fade" id="confirmaModal" tabindex="-1" aria-labelledby="confirmaModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <p>
+                            Esperamos que formes parte de nuestra noche. <br>
+                            <b>Precio de admision: $10.000 por persona</b>
+                        </p>
+                        <br><br>
+                        <p class="text-black">
+                            Mercado Pago<br>
+                            Gabriel Emanuel Roldan Elizondo <br>
+                            <b>CVU:</b> <a id="cvu" value="0000003100059215737285">0000003100059215737285</a><br>
+                            <b>Alias:</b> <a id="alias">onda.vida.ecepto.mp</a><br>
+                            <b>CUIT/CUIL:</b> 20399958602 <br>
+                            
+                        </p>
+                        <p class="my-2 mx-2 px-5 btn btn-pago text-center ">
+                            <a href="https://mpago.la/1medwAt" target="_blank" class="m-auto">
+                                <span class="m-auto d-flex">
+                                    <img src="./statics/img/mp_icon.png" alt="Mercado Pago">
+                                    Ir a pagar
+                                    <i>
+                                    </i>
+                                </span>
+                            </a>
+                        </p><br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Listo</button>
+                        <button type="button" class="btn btn-wsp" data-bs-dismiss="modal"><i class="bi bi-whatsapp"></i> <a href="https://wa.link/1ejyyd">Consultas</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="./statics/img/regalo.webp" alt="" class="" srcset=""> -->
+        <h1 class="text-black text-center bolder text-capitalize">Confirmar asistencia</h1>
+        <section class="text-center">
+            <p class="text-center">
+                Esperamos que seas parte de nuetra maravillosa noche.
+            </p>
+            <p class="text-center">
+                <i class="bi bi-arrow-down"></i>
+                ¡Confirmanos tu asistencia!
+                <i class="bi bi-arrow-down"></i>
+            </p>
+            <button type="button" class="px-5" data-bs-toggle="modal" data-bs-target="#confirmaModal">
+                Confirmar
+            </button>
+        </section>
+    
+    </div>
 </body>
 <script src="./statics/js/contdown.js"></script>
 
 </html>
-
