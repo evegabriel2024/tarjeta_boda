@@ -17,6 +17,42 @@
 }
 
 
+/* INFO regalo */
+.regalo{
+    color: white;
+    background-color: #838C7B;
+    border: white solid 3px;
+    margin: auto;
+}
+.regalo img{
+    position: relative;
+    width: 120px;
+    left: calc(50% - 60px);
+    padding: 1em 0 0 0;
+    filter: invert();
+}
+
+.regalo h1{
+    font-family: "VonMullerhoff";
+    font-size: 4.5em;
+    margin: 0;
+}
+.regalo section p{
+    font-family: "MarckScript";
+    font-size: 1.2em;
+}
+.regalo section button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
 /* MEDIA QUERY */
 @media (max-width: 890px) {
     .countdown .container p{
