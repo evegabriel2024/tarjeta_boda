@@ -203,6 +203,39 @@
 }
 
 
+/* INFO CALENDARIO */
+.calendario{
+    background-color: white;
+    margin: auto;
+    
+}
+.calendario img{
+    position: relative;
+    width: 80px;
+    left: calc(50% - 40px);
+    padding: 1em 0 0 0;
+}
+
+.calendario h1{
+    font-family: "VonMullerhoff";
+    font-size: 3em;
+    margin: 0;
+}
+.calendario section p{
+    font-family: "MarckScript";
+    font-size: 1.2em;
+}
+.calendario section a{
+    text-decoration: none;
+    color: white;
+    background-color: #838C7B;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
 
 
 @media (max-width: 890px) {
